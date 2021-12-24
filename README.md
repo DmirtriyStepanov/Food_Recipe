@@ -12,7 +12,7 @@ Demo: https://dmitriystepanov601.github.io/FoodRecipe/
 
 - HTML
 - CSS
-- JavaScript (Vanilla JS)
+- Vanilla JS
 
 ## Project Description
 
