@@ -23,7 +23,7 @@ section {
     align-items: center;
     justify-content: center;
     padding: 100px 0;
-    background-color: rgb(0, 209, 160);  
+    background-color: rgb(0, 209, 160);
 }
 
 .container {
@@ -78,7 +78,7 @@ form ion-icon {
 .item {
     width: 100%;
     border-radius: 8px;
-    background-color: rgb(48, 186, 143);    
+    background-color: rgb(48, 186, 143);
     padding: 15px;
     overflow: hidden;
 }
