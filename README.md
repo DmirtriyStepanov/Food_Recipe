@@ -22,6 +22,4 @@ In this application, the user has the opportunity to enter the name of the dish 
 
 ## API
 
-Data on cooking recipes can be obtained by using a third-party service (Food API).
-
-![2021-11-15_18-46-39](https://user-images.githubusercontent.com/61186198/141813413-f36f75ed-1b21-4e84-87a0-0b4723a80c9d.png)
+Data on cooking recipes can be obtained by using a third-party service: https://www.edamam.com/
