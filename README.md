@@ -6,7 +6,7 @@ In the course of learning the JS language, I completed an application project re
 
 ## Demo project
 
-Demo: https://dmitriystepanov601.github.io/FoodRecipe/
+Demo: https://dmitriystepanov601.github.io/FoodRecipe_App/
 
 ## Technologies
 
