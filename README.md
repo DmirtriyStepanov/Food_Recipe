@@ -1,4 +1,3 @@
-# Food Recipe App
 ## Project Description
 
 In this application, the user has the opportunity to enter the name of the dish in the search. As a result of the search, the user will receive a list of 20 possible recipes for this dish.
