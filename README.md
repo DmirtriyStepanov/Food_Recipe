@@ -1,4 +1,4 @@
-## Technologies
+## Tech Stack
 
 ![html-5](https://user-images.githubusercontent.com/61186198/181073714-8f25f2da-ab30-4e26-b524-0345242222cb.png)
 ![css-3](https://user-images.githubusercontent.com/61186198/181075130-d0d32bf9-596d-4d2e-a034-2f3c3daa40a8.png)
