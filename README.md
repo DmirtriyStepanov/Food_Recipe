@@ -5,7 +5,7 @@
 Display food recipes with using API [Food Recipe](https://www.edamam.com/). 
 
 ## Demo
-You can watch today food recipes [here](https://dmirtriystepanov.github.io/Food_Recipe/) 
+You can watch today food recipes [here](https://greystone97.github.io/Food_Recipe/) 
 
 ## Project Description
 In this project I mastered:
