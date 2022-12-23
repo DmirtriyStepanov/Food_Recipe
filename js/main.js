@@ -20,27 +20,30 @@ async function fetchAPI() {
     console.log(data);
 }
 
+/* <p class="item-data">Health labels: ${result.recipe.healthLabels}</p>  */
+/* <a class="view-btn" target="_blank" href="${result.recipe.url}">View Recipe</a> */ 
+/* <p class="item-data">Calories: ${result.recipe.calories.toFixed(2)}</p>
+                <p class="item-data">Diet: ${result.recipe.dietLabels.length > 0
+                    ? result.recipe.dietLabels : "No Data Found"}
+                </p>
+
+                <p class="item-data">Cuisine: ${result.recipe.cuisineType}</p>
+                <p class="item-data">Meal: ${result.recipe.mealType}</p> */
+
 function generateHTML(results) {
     container.classList.remove("initial");
     let generatedHTML = "";
 
     results.map((result) => {
         generatedHTML += `
-        <div class="item">
-        <img src="${result.recipe.image}" alt="img">
-        <div class="flex-container">
-            <h1 class="title">${result.recipe.label}</h1>
-            <a class="view-btn" target="_blank" href="${result.recipe.url}">View Recipe</a>
-        </div>
-        <p class="item-data">Calories: ${result.recipe.calories.toFixed(2)}</p>
-        <p class="item-data">Diet label: ${result.recipe.dietLabels.length > 0
-            ? result.recipe.dietLabels : "No Data Found"}
-        </p>
-        <p class="item-data">Health labels: ${result.recipe.healthLabels}</p>
-        <p class="item-data">Cuisine type: ${result.recipe.cuisineType}</p>
-        <p class="item-data">Meal type: ${result.recipe.mealType}</p>
-      </div>
-    `;
+            <div class="item">
+                <img src="${result.recipe.image}" alt="img">
+                <div class="flex-container">
+                    <h1 class="title">${result.recipe.label}</h1>
+                    <a class="view-btn" href="#">View Recipe</a>
+                </div>
+            </div>
+        `;
     });
 
     searchResultDiv.innerHTML = generatedHTML;
