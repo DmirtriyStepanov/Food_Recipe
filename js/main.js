@@ -20,16 +20,6 @@ async function fetchAPI() {
     console.log(data);
 }
 
-/* <p class="item-data">Health labels: ${result.recipe.healthLabels}</p>  */
-/* <a class="view-btn" target="_blank" href="${result.recipe.url}">View Recipe</a> */ 
-/* <p class="item-data">Calories: ${result.recipe.calories.toFixed(2)}</p>
-                <p class="item-data">Diet: ${result.recipe.dietLabels.length > 0
-                    ? result.recipe.dietLabels : "No Data Found"}
-                </p>
-
-                <p class="item-data">Cuisine: ${result.recipe.cuisineType}</p>
-                <p class="item-data">Meal: ${result.recipe.mealType}</p> */
-
 function generateHTML(results) {
     container.classList.remove("initial");
     let generatedHTML = "";
@@ -40,7 +30,15 @@ function generateHTML(results) {
                 <img src="${result.recipe.image}" alt="img">
                 <div class="flex-container">
                     <h1 class="title">${result.recipe.label}</h1>
-                    <a class="view-btn" href="#">View Recipe</a>
+                    <div>
+                        <p class="item-data">${result.recipe.cuisineType}</p>
+                        <p class="item-data">${result.recipe.mealType}</p> 
+                        <p class="item-data">${result.recipe.dietLabels.length > 0
+                            ? result.recipe.dietLabels : "unknown"}
+                        </p>
+                        <p class="item-data">${result.recipe.calories.toFixed(2)} kcal</p>
+                    </div>
+                    <a class="view-btn" target="_blank" href="${result.recipe.url}">View Recipe</a>
                 </div>
             </div>
         `;
@@ -48,3 +46,4 @@ function generateHTML(results) {
 
     searchResultDiv.innerHTML = generatedHTML;
 }
+
