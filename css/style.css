@@ -127,7 +127,7 @@ form ion-icon {
 
 .item-data {                                   /* нужный класс для редактирования*/
     color: black;
-    margin: 10px;                            /* 0 20px 0 20px */           
+    margin: 10px;                                 
     font-size: 1.5rem;                       /* 1.3rem*/
     letter-spacing: 0.05rem;
     line-height: 2rem;
