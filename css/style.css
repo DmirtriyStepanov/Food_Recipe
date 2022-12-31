@@ -128,10 +128,57 @@ form ion-icon {
 .item-data {                                   /* нужный класс для редактирования*/
     color: black;
     margin: 10px;                                 
-    font-size: 1.5rem;                       /* 1.3rem*/
+    font-size: 1.7rem;                       /* 1.3rem*/
     letter-spacing: 0.05rem;
     line-height: 2rem;
     text-transform: lowercase;
+}
+
+.rating-area {
+	overflow: hidden;
+	width: 265px;            
+}
+
+.rating-area:not(:checked) > input {
+	display: none;
+}
+
+.rating-area:not(:checked) > label {
+	float: left;                           
+	width: 34px;              
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+
+.rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+
+.rate-area > label:active {
+	position: relative;
 }
 
 .container.initial .brand {
