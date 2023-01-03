@@ -127,60 +127,62 @@ form ion-icon {
 
 .item-data {                                   
     color: black;
-    margin: 10px 20px 10px 20px;                                 
+    margin: 10px 20px 10px 30px;                                 
     font-size: 1.7rem;                       /* 1.3rem*/
     letter-spacing: 0.05rem;
     line-height: 2rem;
     text-transform: lowercase;
 }
 
-.rating-area {
-	overflow: hidden;
-	width: 265px;
-    margin: 0 0 0 20px;            
+/* БЛОК СОЦИАЛЬНЫЕ СЕТИ */
+
+.social-icons {
+    padding: 0;
+    list-style: none;
+    margin: 10px 20px 10px 30px;
+}
+.social-icons li {
+    display: inline-block;
+    position: relative;
+    font-size: 24px;
+}
+.social-icons i,
+.social-icons img {
+    color: #fff;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    width: 24px;
+    height: 24px;
+    text-align:center;
+    transition: all 0.3s ease-out;
+}
+.social-icons a {
+    display: inline-block;
+}
+.social-icons a:before {
+    transform: scale(1);
+    content: "";
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: block;
+    background: linear-gradient(45deg, #337AB7, #2d6b9f);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2), 0 2px 4px rgba(0,0,0,0.2);
+    transition: all 0.3s ease-out;
+}
+.social-icons a:hover:before {
+    transform: scale(0);
+    transition: all 0.3s ease-in;
+}
+.social-icons a:hover i,
+.social-icons a:hover img {
+    transform: scale(1.8);
+    color: #337AB7;
+    transition: all 0.3s ease-in;
 }
 
-.rating-area:not(:checked) > input {
-	display: none;
-}
-
-.rating-area:not(:checked) > label {
-	float: left;                           
-	width: 40px;              
-	padding: 0;
-	cursor: pointer;
-	font-size: 32px;
-	line-height: 32px;
-	color: lightgrey;
-	text-shadow: 1px 1px #bbb;
-}
-
-.rating-area:not(:checked) > label:before {
-	content: '★';
-}
-
-.rating-area > input:checked ~ label {
-	color: gold;
-	text-shadow: 1px 1px #c60;
-}
-
-.rating-area:not(:checked) > label:hover,
-.rating-area:not(:checked) > label:hover ~ label {
-	color: gold;
-}
-
-.rating-area > input:checked + label:hover,
-.rating-area > input:checked + label:hover ~ label,
-.rating-area > input:checked ~ label:hover,
-.rating-area > input:checked ~ label:hover ~ label,
-.rating-area > label:hover ~ input:checked ~ label {
-	color: gold;
-	text-shadow: 1px 1px goldenrod;
-}
-
-.rate-area > label:active {
-	position: relative;
-}
+/* КОНЕЦ */
 
 .container.initial .brand {
     font-size: 7rem;
