@@ -38,8 +38,7 @@ function generateHTML(results) {
                         </p>
                         <p class="item-data">calories: ${result.recipe.calories.toFixed(2)} kcal</p>
                     </div>
-                    <div>
-                        <div class="rating-area">
+                    <div class="rating-area">
                             <input type="radio" id="star-5" name="rating" value="5">
                             <label for="star-5" title="Оценка «5»"></label>	
                             <input type="radio" id="star-4" name="rating" value="4">
@@ -50,9 +49,8 @@ function generateHTML(results) {
                             <label for="star-2" title="Оценка «2»"></label>    
                             <input type="radio" id="star-1" name="rating" value="1">
                             <label for="star-1" title="Оценка «1»"></label>
-                        </div>
-                        <a class="view-btn" target="_blank" href="${result.recipe.url}">View Recipe</a>
                     </div>
+                    <a class="view-btn" target="_blank" href="${result.recipe.url}">View Recipe</a> 
                 </div>
             </div>
         `;
