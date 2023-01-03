@@ -81,14 +81,13 @@ form ion-icon {
     width: 100%;
     border-radius: 8px;
     background-color: #ffffff;   
-    padding: 15px;
     overflow: hidden;
 }
 
 .item img {
     width: 100%;
     height: 300px;
-    border-radius: 4px;
+    border-radius: 4px; 
 }
 
 .flex-container {
@@ -99,13 +98,13 @@ form ion-icon {
 .search-result .title {
     color: #800080;      
     text-align: center;
-    margin: 20px 10px 20px 0;       
+    margin: 20px 10px 20px 10px;       
     font-size: 1.8rem;
     font-weight: 600;     
 }
 
 .view-btn {
-    float:right;
+    float:right; 
     text-decoration: none;
     text-align: center;
     width: 150px;                     
@@ -114,7 +113,8 @@ form ion-icon {
     color: #ffffff;
     font-size: 1.4rem;
     font-weight: 600;
-    margin-top: 20px;                
+    margin: 0 15px 15px 0;  
+    margin-top: 10px;               
     border-radius: 4px;
     align-self: flex-end;         
 }
@@ -122,64 +122,67 @@ form ion-icon {
 .view-btn:hover {
     background: transparent;      
     color:  #50c878;
-    border-style: solid;
+    border: 1px solid #50c878;
 }
 
-.item-data {                                   /* нужный класс для редактирования*/
+.item-data {                                   
     color: black;
-    margin: 10px;                                 
+    margin: 10px 20px 10px 30px;                                 
     font-size: 1.7rem;                       /* 1.3rem*/
     letter-spacing: 0.05rem;
     line-height: 2rem;
     text-transform: lowercase;
 }
 
-.rating-area {
-	overflow: hidden;
-	width: 265px;            
+/* БЛОК СОЦИАЛЬНЫЕ СЕТИ */
+
+.social-icons {
+    padding: 0;
+    list-style: none;
+    margin: 10px 20px 10px 30px;
+}
+.social-icons li {
+    display: inline-block;
+    position: relative;
+    font-size: 24px;
+}
+.social-icons i,
+.social-icons img {
+    color: #fff;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    width: 24px;
+    height: 24px;
+    text-align:center;
+    transition: all 0.3s ease-out;
+}
+.social-icons a {
+    display: inline-block;
+}
+.social-icons a:before {
+    transform: scale(1);
+    content: "";
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: block;
+    background: linear-gradient(45deg, #337AB7, #2d6b9f);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2), 0 2px 4px rgba(0,0,0,0.2);
+    transition: all 0.3s ease-out;
+}
+.social-icons a:hover:before {
+    transform: scale(0);
+    transition: all 0.3s ease-in;
+}
+.social-icons a:hover i,
+.social-icons a:hover img {
+    transform: scale(1.8);
+    color: #337AB7;
+    transition: all 0.3s ease-in;
 }
 
-.rating-area:not(:checked) > input {
-	display: none;
-}
-
-.rating-area:not(:checked) > label {
-	float: left;                           
-	width: 34px;              
-	padding: 0;
-	cursor: pointer;
-	font-size: 32px;
-	line-height: 32px;
-	color: lightgrey;
-	text-shadow: 1px 1px #bbb;
-}
-
-.rating-area:not(:checked) > label:before {
-	content: '★';
-}
-
-.rating-area > input:checked ~ label {
-	color: gold;
-	text-shadow: 1px 1px #c60;
-}
-
-.rating-area:not(:checked) > label:hover,
-.rating-area:not(:checked) > label:hover ~ label {
-	color: gold;
-}
-
-.rating-area > input:checked + label:hover,
-.rating-area > input:checked + label:hover ~ label,
-.rating-area > input:checked ~ label:hover,
-.rating-area > input:checked ~ label:hover ~ label,
-.rating-area > label:hover ~ input:checked ~ label {
-	color: gold;
-	text-shadow: 1px 1px goldenrod;
-}
-
-.rate-area > label:active {
-	position: relative;
-}
+/* КОНЕЦ */
 
 .container.initial .brand {
     font-size: 7rem;
