@@ -39,11 +39,11 @@ function generateHTML(results) {
                         <p class="item-data">calories: ${result.recipe.calories.toFixed(2)} kcal</p>
                     </div>
                     <ul class="social-icons">
-                        <li><a href="#"><i class="fa fa-vk"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa fa-telegram"></i></a></li>
-                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                        <li><a href="#"><i class="fa fa-tumblr"></i></i></a></li>
+                        <li><a class="vk" href="#"><i class="fa fa-vk"></i></a></li>
+                        <li><a class="inst" href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a class="tg" href="#"><i class="fa fa-telegram"></i></a></li>
+                        <li><a class="yt" href="#"><i class="fa fa-youtube"></i></a></li>
+                        <li><a class="tb" href="#"><i class="fa fa-tumblr"></i></i></a></li>
                     </ul>
                     <a class="view-btn" target="_blank" href="${result.recipe.url}">View Recipe</a>   
                 </div>
