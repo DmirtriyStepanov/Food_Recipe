@@ -121,17 +121,18 @@ form ion-icon {
 
 .view-btn:hover {
     background: transparent;      
-    color:  #50c878;
+    color: #50c878;
     border: 1px solid #50c878;
 }
 
 .item-data {                                   
     color: black;
-    margin: 10px 20px 10px 30px;                                 
+    margin: 10px 20px 10px 20px;                                 
     font-size: 1.7rem;                       /* 1.3rem*/
     letter-spacing: 0.05rem;
     line-height: 2rem;
     text-transform: lowercase;
+    text-align: center;
 }
 
 /* БЛОК СОЦИАЛЬНЫЕ СЕТИ */
@@ -141,45 +142,33 @@ form ion-icon {
     list-style: none;
     margin: 10px 20px 10px 30px;
 }
+
 .social-icons li {
     display: inline-block;
     position: relative;
-    font-size: 24px;
+    font-size: 40px;    
 }
+
+.vk { color:#4a76a8; }
+.inst { color:#e56969; }
+.tg { color:#249bd7; }
+.yt { color:#c4302b; }
+.tb { color:#34526f; }
+
 .social-icons i,
 .social-icons img {
-    color: #fff;
     position: absolute;
     top: 18px;
     left: 18px;
     width: 24px;
     height: 24px;
     text-align:center;
-    transition: all 0.3s ease-out;
 }
+
 .social-icons a {
     display: inline-block;
-}
-.social-icons a:before {
-    transform: scale(1);
-    content: "";
     width: 60px;
     height: 60px;
-    border-radius: 100%;
-    display: block;
-    background: linear-gradient(45deg, #337AB7, #2d6b9f);
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2), 0 2px 4px rgba(0,0,0,0.2);
-    transition: all 0.3s ease-out;
-}
-.social-icons a:hover:before {
-    transform: scale(0);
-    transition: all 0.3s ease-in;
-}
-.social-icons a:hover i,
-.social-icons a:hover img {
-    transform: scale(1.8);
-    color: #337AB7;
-    transition: all 0.3s ease-in;
 }
 
 /* КОНЕЦ */
