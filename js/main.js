@@ -13,7 +13,7 @@ searchForm.addEventListener("submit", (e) => {
 });
 
 async function fetchAPI() {
-    const baseURL = `https://api.edamam.com/search?q=${searchQuery}&app_id=${APP_ID}&app_key=${APP_key}&from=0&to=20`;
+    const baseURL = `https://api.edamam.com/search?q=${searchQuery}&app_id=${APP_ID}&app_key=${APP_key}&from=0&to=50`;
     const response = await fetch(baseURL);
     const data = await response.json();
     generateHTML(data.hits);
@@ -39,13 +39,13 @@ function generateHTML(results) {
                         <p class="item-data">calories: ${result.recipe.calories.toFixed(2)} kcal</p>
                     </div>
                     <ul class="social-icons">
-                        <li><a class="vk" href="#"><i class="fa fa-vk"></i></a></li>
-                        <li><a class="inst" href="#"><i class="fa fa-instagram"></i></a></li>
-                        <li><a class="tg" href="#"><i class="fa fa-telegram"></i></a></li>
-                        <li><a class="yt" href="#"><i class="fa fa-youtube"></i></a></li>
-                        <li><a class="tb" href="#"><i class="fa fa-tumblr"></i></i></a></li>
+                        <li><a class="vk" href="https://vk.com/"><i class="fa fa-vk"></i></a></li>
+                        <li><a class="inst" href="https://instagram.com/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a class="tg" href="https://web.telegram.org/z/"><i class="fa fa-telegram"></i></a></li>
+                        <li><a class="yt" href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a></li>
+                        <li><a class="tb" href="https://www.tumblr.com/"><i class="fa fa-tumblr"></i></i></a></li>
                     </ul>
-                    <a class="view-btn" target="_blank" href="${result.recipe.url}">View Recipe</a>   
+                    <a class="view-btn" target="_blank" href="${result.recipe.url}">View Recipe</a>  
                 </div>
             </div>
         `;
