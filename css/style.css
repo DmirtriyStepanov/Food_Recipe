@@ -223,3 +223,18 @@ form ion-icon {
         font-size: 2rem;    
     }
 }
+
+@media (max-width: 360px) {
+    .container.initial form input {
+        padding: 8px;      
+        font-size: 2rem;    
+    }
+    
+    .social-icons {
+        margin: 0; 
+    }
+
+    .view-btn {
+        width: 290px;
+    }
+}
