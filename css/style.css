@@ -217,12 +217,43 @@ form ion-icon {
     }
 
     .container.initial form {
-        max-width: 500px;
+        max-width: 500px;                   
     }
 
     .container.initial form input {
         padding: 8px;      
         font-size: 2rem;    
+    }
+
+    .view-btn {
+        width: 330px;
+    }
+}
+
+@media (max-width: 600px) {
+    .search-result {
+        grid-gap: 10px;
+    }
+
+    .container.initial .brand {
+        font-size: 4rem;
+    }
+
+    .container.initial form {
+        max-width: 500px;                   
+    }
+
+    .container.initial form input {
+        padding: 8px;      
+        font-size: 2rem;    
+    }
+
+    .social-icons {
+        margin: 0 70px 0 130px;
+    }
+
+    .view-btn {
+        width: 530px;
     }
 }
 
