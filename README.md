@@ -16,7 +16,7 @@ Also in the next version (version 2), not only the color solutions concerning th
  
 ## Demo
 
-In order to view the application, you need to click on the link [here](https://greystone97.github.io/Food_Recipe/).
+In order to view the application, you need to click on the link [here](https://edafoodrecipesapp.netlify.app/).
 
 ## Project Description
 
