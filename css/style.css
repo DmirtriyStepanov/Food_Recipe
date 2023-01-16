@@ -191,18 +191,146 @@ form ion-icon {
   
 /* медиа-запросы под различные устройства */
 
+/**    TABLETS   **/
+
 @media (max-width: 768px) {
     .search-result {
         grid-gap: 10px;
     }
+
     .container.initial .brand {
         font-size: 4rem;
     }
+
     .container.initial form {
         max-width: 500px;
     }
+
     .container.initial form input {
         padding: 10px;
         font-size: 2rem;
+    }
+
+    .view-btn {
+        width: 330px;
+    }
+}
+
+@media (max-width: 600px) {
+    .search-result {
+        grid-gap: 10px;
+    }
+
+    .container.initial .brand {
+        font-size: 4rem;
+    }
+
+    .container.initial form {
+        max-width: 500px;                   
+    }
+
+    .container.initial form input {
+        padding: 8px;      
+        font-size: 2rem;    
+    }
+
+    .social-icons {
+        margin: 0 70px 0 130px;
+    }
+
+    .view-btn {
+        width: 530px;
+    }
+}
+
+/**    SMARTPHONES   **/
+
+@media (max-width: 480px) {
+    .container.initial form input {
+        padding: 8px;      
+        font-size: 2.8rem;    
+    }
+
+    .social-icons {
+        margin: 0 40px 0 60px;
+    }
+
+    .view-btn {
+        width: 410px;
+    }
+}
+
+@media (max-width: 420px) {
+    .container.initial form input {
+        padding: 8px;      
+        font-size: 2.2rem;    
+    }
+
+    .social-icons {
+        margin: 0 20px 0 30px;
+    }
+
+    .view-btn {
+        width: 340px;
+    }
+}
+
+@media (max-width: 400px) {
+    .container.initial form input {
+        padding: 8px;      
+        font-size: 2.2rem;    
+    }
+
+    .social-icons {
+        margin: 0 15px 0 15px;
+    }
+
+    .view-btn {
+        width: 320px;
+    }
+}
+
+@media (max-width: 384px) {
+    .container.initial form input {
+        padding: 8px;      
+        font-size: 2.2rem;    
+    }
+
+    .social-icons {
+        margin: 0 10px 0 10px;
+    }
+
+    .view-btn {
+        width: 315px;
+    }
+}
+
+@media (max-width: 375px) {
+    .container.initial form input {
+        padding: 8px;      
+        font-size: 2.2rem;    
+    }
+
+    .social-icons {
+        margin: 0 10px 0 10px;
+    }
+
+    .view-btn {
+        width: 305px;
+    }
+}
+
+@media (max-width: 360px) {
+    .container.initial form input {
+        padding: 8px;      
+        font-size: 2rem;    
+    }
+
+    .social-icons {
+        margin: 0; 
+    }
+
+    .view-btn {
+        width: 290px;
     }
 }
