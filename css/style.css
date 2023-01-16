@@ -24,7 +24,7 @@ section {
     align-items: center;
     justify-content: center;
     padding: 100px 0;
-    background: linear-gradient(45deg, rgba(103, 0, 31, .8), rgba(34, 101, 163, .5)), url('../images/foodtitle.jpg'); 
+    background: linear-gradient(45deg, rgba(103, 0, 31, .8), rgba(34, 101, 163, .5)), url('../images/foodtitle.jpg');
     background-size: cover;
 }
 
@@ -61,7 +61,7 @@ input {
     display: inline-block;
 }
 
-::placeholder { 
+::placeholder {
     color: #990099;
 }
 
@@ -69,7 +69,7 @@ form ion-icon {
     width: 8%;
     font-size: 3rem;
     margin-bottom: -8px;
-    color: #4b4b4b;  
+    color: #4b4b4b;
     display: inline-block;
 }
 
@@ -84,14 +84,14 @@ form ion-icon {
 .item {
     width: 100%;
     border-radius: 8px;
-    background-color: #ffffff;   
+    background-color: #ffffff;
     overflow: hidden;
 }
 
 .item img {
     width: 100%;
     height: 300px;
-    border-radius: 4px; 
+    border-radius: 4px;
 }
 
 .flex-container {
@@ -100,38 +100,38 @@ form ion-icon {
 }
 
 .search-result .title {
-    color: #800080;      
+    color: #800080;
     text-align: center;
-    margin: 20px 10px 20px 10px;       
+    margin: 20px 10px 20px 10px;
     font-size: 1.8rem;
-    font-weight: 600;     
+    font-weight: 600;
 }
 
 .view-btn {
     display: inline-block;
     text-decoration: none;
     text-align: center;
-    width: 340px;                              
-    padding: 8px 8px;                        
-    background: #50c878;    
+    width: 340px;
+    padding: 8px 8px;
+    background: #50c878;
     color: #ffffff;
     font-size: 1.4rem;
     font-weight: 600;
-    margin: 15px;               
+    margin: 15px;
     border-radius: 4px;
-    align-self: flex-end;         
+    align-self: flex-end;
 }
 
 .view-btn:hover {
-    background: transparent;      
+    background: transparent;
     color: #50c878;
     border: 1px solid #50c878;
 }
 
-.item-data {                                   
+.item-data {
     color: black;
-    margin: 10px 20px 10px 20px;                                 
-    font-size: 1.7rem;                       
+    margin: 10px 20px 10px 20px;
+    font-size: 1.7rem;
     letter-spacing: 0.05rem;
     line-height: 2rem;
     text-transform: lowercase;
@@ -143,20 +143,34 @@ form ion-icon {
 .social-icons {
     padding: 0;
     list-style: none;
-    margin: 0 20px 0 20px;       /* 10 20 10 30 */
+    margin: 0 20px 0 20px;
 }
 
 .social-icons li {
     display: inline-block;
     position: relative;
-    font-size: 40px;    
+    font-size: 40px;
 }
 
-.vk { color:#4a76a8; }
-.inst { color:#e56969; }
-.tg { color:#249bd7; }
-.yt { color:#c4302b; }
-.tb { color:#34526f; }
+.vk {
+    color: #4a76a8;
+}
+
+.inst {
+    color: #e56969;
+}
+
+.tg {
+    color: #249bd7;
+}
+
+.yt {
+    color: #c4302b;
+}
+
+.tb {
+    color: #34526f;
+}
 
 .social-icons i,
 .social-icons img {
@@ -207,10 +221,10 @@ form ion-icon {
     }
 
     .container.initial form input {
-        padding: 10px;
-        font-size: 2rem;
+        padding: 8px;      
+        font-size: 2rem;    
     }
-
+    
     .view-btn {
         width: 330px;
     }
