@@ -1,20 +1,20 @@
-## Food Recipe App (<b>Update App</b>)
+## Food Recipe App (<b> :white_check_mark: Update App</b>)
 
 This app allows you to get data on all kinds of dishes from different countries of the world from a free [Edamam API](https://www.edamam.com/).
 
 Next, the process of the application is demonstrated when the user enters the name of the dish, in our case it is pizza and receives 20 recipes with detailed information and the opportunity to see the recipe itself.
 
-### 1 version app
+### Version 1.0
 
-The first version is shown below and reflects the primary design and functionality, and also includes a lack of adaptability.
+The version 1.0 is shown below :arrow_heading_down: and reflects the primary design and functionality, and also includes a lack of adaptability.
 
 ![animation](https://user-images.githubusercontent.com/61186198/142764473-439182fb-b4c3-44ff-aa12-0b8c564705fb.gif)
 
-Also in the next version (version 2), not only the color solutions concerning the design of the website were changed, but also the possibility of its adaptability was taken into account not only for various mobile devices, but also for tablets in particular. Since due to the rapid development of technology, you should not lose sight of the moment.
+Also in the next version (version 2.0), not only the color solutions concerning the design of the website were changed, but also the possibility of its adaptability was taken into account not only for various mobile devices, but also for tablets in particular. Since due to the rapid development of technology, you should not lose sight of the moment.
 
-### 2 version app
+### Version 2.0
 
-In version 2, presented below, you can see that the design has changed from monochrome to gradient using a background image, which added color to the design of the site.
+In version 2.0, presented below :arrow_heading_down:, you can see that the design has changed from monochrome to gradient using a background image, which added color to the design of the site.
 
 ![edafood](https://user-images.githubusercontent.com/61186198/213450495-fe6193f6-28a3-4bf0-a708-e3d512e6c627.gif)
 
