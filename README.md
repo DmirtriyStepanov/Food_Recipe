@@ -1,8 +1,10 @@
-## Food Recipe Website [Посмотреть](https://edafoodrecipesapp.netlify.app/)
+## Food Recipe
 
 ### Описание проекта:
 
 Данный веб-сайт позволяет получать информацию об известных блюдах различных стран, включая название блюда, к какой кухне относится, фото и другие. Также имеется возможность поделиться понравивишимся блюдом в таких социальных сетях. 
+
+Также развернутый вебсайт можно посмотреть [here](https://edafoodrecipesapp.netlify.app/)
 
 ![a8fffd39524fcac3cebe6df5bad0b7c8](https://github.com/GreyStone97/Food_Recipe/assets/61186198/2590817b-dd7d-4375-a739-a5d751847fdb)
 
