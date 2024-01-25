@@ -1,4 +1,4 @@
-## Food Recipe Website  [here](https://edafoodrecipesapp.netlify.app/)
+## Food Recipe Website [Посмотреть](https://edafoodrecipesapp.netlify.app/)
 
 ### Описание проекта:
 
