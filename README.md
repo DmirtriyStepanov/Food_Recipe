@@ -1,12 +1,16 @@
-## Food Recipe
+## Food Recipe App
+
+![GitHub repo size](https://img.shields.io/github/repo-size/GreyStone97/Food_Recipe)
+![GitHub stars](https://img.shields.io/github/stars/GreyStone97/Food_Recipe?style=social)
+![GitHub forks](https://img.shields.io/github/forks/GreyStone97/Food_Recipe?style=social)
 
 ### Описание проекта:
 
 Данный веб-сайт позволяет получать информацию об известных блюдах различных стран, включая название блюда, к какой кухне относится, фото и другие. Также имеется возможность поделиться понравивишимся блюдом в таких социальных сетях. 
 
-Также развернутый веб-сайт можно посмотреть: [here](https://edafoodrecipesapp.netlify.app/)
+Также развернутый веб-сайт можно посмотреть: [Demo Live](https://edafoodrecipesapp.netlify.app/)
 
-![a8fffd39524fcac3cebe6df5bad0b7c8](https://github.com/GreyStone97/Food_Recipe/assets/61186198/2590817b-dd7d-4375-a739-a5d751847fdb)
+![2024-02-01_18-57-06](https://github.com/GreyStone97/Food_Recipe/assets/61186198/3b5af262-f1dd-42a2-950e-eda802e26bf6)
 
 В качестве источника данных был выбран бесплатный API - [Edamam API](https://www.edamam.com/). 
 
@@ -15,8 +19,9 @@
 Ниже демонстрируется процесс взаимодействия пользователя с веб-сайтом. Также данный веб-сайт адаптирован под различные мобильные устройства и планшеты.  
 
 ### Стек технологий:
-
-[![Stack_tech](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)
+- <b><i>HTML</i></b>
+- <b><i>CSS</i></b>
+- <b><i>JS</i></b>
 
 ### Версия 1.0:
 
