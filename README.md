@@ -42,7 +42,9 @@
  :---: | :---: | :---: | :---: | :---: | :---: 
  ![iphone 12 pro](https://user-images.githubusercontent.com/61186198/213754945-6136a3c0-a344-4814-acb0-787498ae83ca.gif) |  ![samsung galaxy s8](https://user-images.githubusercontent.com/61186198/213754999-c6a81adc-8cd4-426f-8fc4-9bb6bd070bff.gif) | ![samsung galaxy s20 ultra](https://user-images.githubusercontent.com/61186198/213755014-a9fddbd4-9787-42f6-bdbb-585cb51fbb00.gif) | ![blackberry paybook](https://user-images.githubusercontent.com/61186198/213755050-535102bf-a528-4b93-816c-575e04717c91.gif) | ![ipad air](https://user-images.githubusercontent.com/61186198/213755080-27843cb6-0bb8-423f-96a8-810bea79a024.gif) | ![ipad mini](https://user-images.githubusercontent.com/61186198/213755142-cd9a6da4-9374-4560-9ad2-15b35b801270.gif)   
 
-## Инструкции по использованию:
- You can run this project locally just do:
- - clone branch `master` with `git clone https://github.com/GreyStone97/Food_Recipe.git` or fork it and then clone it from your forked repo
- - `cd Food_Recipe`
+## Инструкции по использованию проекта:
+ Для того чтобы запустить проект необходимо:
+ - клонировать репозиторий: `git clone https://github.com/GreyStone97/Food_Recipe.git` или воспользовать `fork` и только потом клонировать разветвленный репозиторий;
+ - в зависимости от ОС:
+   - Windows: перейти в папку с файлом `index.html` и запустить его в браузере;
+   - Linux: воспользовать командами: `$ open index.html` или `$ [browser name] index.html`.
